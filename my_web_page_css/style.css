@@ -1,0 +1,50 @@
+:root{
+    --british_racing_green: #0E402D;
+    --cal_poly_green: #295135;
+    --ebony: #5A6650;
+    --yellow_green: #9FCC2E;
+    background-color: var(--yellow_green);
+}
+body{
+    color: black;
+}
+
+h1{
+    display: block;
+    padding: 1in;
+    border: 1cm;
+    margin: 1in;
+    text-align: center;
+    background-color: var(--british_racing_green);
+    color: var(--ebony);
+    font-size: large;
+
+}
+h1:first-letter{
+    font-size: xx-large;
+}
+.clase1{
+    font-size: large;
+}
+#birthdays{background-color: blueviolet;}
+table 
+    {
+        align-items: center;
+        border-style: dotted;
+        border-width: 0.5cm;
+       background-color: var(--british_racing_green); 
+       border-color: var(--yellow_green);
+    }
+thead h2
+{
+    background-color: antiquewhite;
+    color: black;
+}    
+table .a 
+{
+    background-color: yellow;
+}
+table .b
+{
+    background-color: black;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Web </title>
+</head>
+<body>
+    <h1>Emilio Ibarra</h1>
+    <p>Student at Computer Science in Universidad Panamericana Gdl.<br/>
+        <em>Calzada Nueva</em> #49, Cd. Granja, <strong>Zapopan</strong>, JAL MX 45010
+    </p>
+    <blockquote>"Bien dicho bicho" --el Bicho</blockquote>
+    <table>
+        <thead>
+            <th>Navigation</th>
+        </thead>
+        <tbody>
+            <nav>
+                    <tr><td><a href="index.html">Refresh</a><br/></td></tr>
+                    <tr></tr><td><a href="destination.html">Favourite Places</a><br/></td></tr>
+                    <tr></tr><td><a href="notes_web_development.html">HTML notes</a><br/></td></tr>
+                    <tr></tr><td><a href="#birthdays">Birthdays</a></td></tr>
+            </nav>
+        </tbody>
+
+    </table>
+     
+    <!--Cambiar a una tabla-->
+    <table border="1">
+        <thead>
+            <th colspan="3"><h2>Education<h2></th>
+        </thead>
+        <tbody>
+            <caption>Academic Background</caption>
+            <tr><td rowspan="3"><a href="https://up4u.up.edu.mx/" alt="Link to up 4 u site" target="_blank"><img src="images/newland_logo.jpg" alt="Logo UP"width="50px"></a></td></tr>
+            <tr><td><em>2006-2009</em></td></tr>
+            <tr><td><b>NewLand</b></td></tr>
+            <tr><td rowspan="3"><a href="https://up4u.up.edu.mx/" alt="Link to up 4 u site" target="_blank"><img src="images/escudo_colegio_irlandes_vde.png" alt="Logo UP"width="50px"></a></td></tr>
+            <tr><td><em>2009-2016</em></td></tr>
+            <tr><td> <b>Mexico Irlander School</b></td></tr>
+            <tr><td rowspan="3"><a href="https://up4u.up.edu.mx/" alt="Link to up 4 u site" target="_blank"><img src="images/Colegio-Cervantes.png" alt="Logo UP"width="50px"></a></td></tr>
+            <tr><td><em>2016-2021</em></td></tr>
+            <tr><td><b>Colegio Cervantes Costa Rica</b></td></tr>
+            <tr><td rowspan="3"><a href="https://up4u.up.edu.mx/" alt="Link to up 4 u site" target="_blank"><img src="images/up.png" alt="Logo UP"width="50px"></a></td></tr>        
+            <tr><td><em>2021-2026</em></td></tr>
+            <tr><td><b>Universidad Panamericana</b></td></tr>
+            
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+    <h3>Top 5 skills</h3>
+    <ol> 
+        <li>English 100%</li>
+        <li>Algorithms 90%</li>
+        <li>Relational Databases 90%</li>
+        <li>Non Relational Databases 85%</li>
+        <li>Nerworks 85%</li>
+    </ol>
+    <h2>My favorite movies</h2>
+    <h3>Top 3</h3>
+    <ol>
+        <li>Interstellar</li>
+        <li>Kung Fu Panda</li>
+        <li>Happy Gilmore</li>
+    </ol>
+    <h3>Bottom 3</h3>
+    <ol start="18" type="a">
+        <li>Tangled</li>
+        <li>LOTR</li>
+        <li>Rocky</li>
+    </ol>
+    <h2>My fav books, movies and tvshows</h2>
+    <ul>
+        <li><h3>Books</h3><ol><li>El mundo de Sofia</li><li>The Hobbit</li><li>Percy Jackson</li></ol></li>
+        <li><h3>Movies</h3><ol><li>El mundo de Sofia</li><li>The Hobbit</li><li>Percy Jackson</li></ol></li>
+        <li><h3>TvShows</h3><ol><li>El mundo de Sofia</li><li>The Hobbit</li><li>Percy Jackson</li></ol></li>
+    </ul>
+
+    <!--Create a list of my 5 favorite destinatnions that should contain:
+    name of the destination
+    picture of the destination
+    country an state/privinde/region where is located
+    flag of the country
+    population
+    latitude an longitude   
+    small text that highlights the beaustis of the destination-->
+    
+
+
+        <table border="1" id="birthdays"><caption>Family Birthdays</caption>
+            <thead>
+                <th colspan="2">Name</th>
+                <th rowspan="2">Birthdays</th>
+            </thead>
+            <thead>
+                <th>Name</th>
+                <th>Last Name</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Omar</td>
+                    <td>Ibarra</td>
+                    <td><time datetime="0000-03-26">03/26</time></td>
+                </tr>
+                <tr>
+                    <td>Emilio</td>
+                    <td>Ibarra</td>
+                    <td><time datetime="0000-01-22">01/22</time></td>
+                </tr>
+                <tr>
+                    <td>Angel</td>
+                    <td>Ibarra</td>
+                    <td><time datetime="0000-08-25">08/25</time></td>
+                </tr>
+                <tr>
+                    <td>Estefania</td>
+                    <td>Ibarra</td>
+                    <td><time datetime="0000-06-11">06/11</time></td>
+                </tr>
+                <tr>
+                    <td>Fabiola</td>
+                    <td>Lomeli</td>
+                    <td><time datetime="0000-11-05">11/05</time></td>
+                </tr>
+                <tr>
+                    <td>Angel</td>
+                    <td>Ibarra</td>
+                    <td><time datetime="0000-03-31">03/31</time></td>
+
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <form action="#" method="get">
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label for="user_name">Name</label></td>
+                        <td><input name="user_name" type="text" placeholder="Pedro Patas"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <select>
+                                <option value="OPT1">a</option>
+                                <option value="OPT2">b</option>
+                                <option value="OPT3">c</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input name="user_email" type="email" value="example@up.edu.mx"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><textarea name="TA" id="place_holder_1" cols="30" rows="10" placeholder="Message"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="submit"></td>
+                    </tr>
+                    <tr>
+                        <td>Nada</td>
+                        <td><input type="hidden" value="ola"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+</body>
+</html>

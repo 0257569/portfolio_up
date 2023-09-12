@@ -1,0 +1,138 @@
+:root{
+    background-color: #f0f8ff;
+    font-size: 13px;
+    height: 1800px;
+}
+main{
+    display: block;
+    position: absolute;
+    width: 100rem;
+    height: 60rem;
+    margin: 28rem;
+    background-color: white;
+}
+div{
+    border: 1rem black solid;
+}
+.complete{
+}
+.top{
+    border-top:0rem ;
+}
+.right{
+    border-right: 0rem;
+}
+.left{
+    border-left: 0rem;
+}
+.bottom{
+    border-bottom: 0rem;
+}
+#a{
+    position: absolute;
+    display: block;
+    width: 3.5rem;
+    height: 39.3rem;
+}
+#b{
+    position: absolute;
+    display: block;
+    width: 30.5rem;
+    height: 39.3rem;
+    left: 4.4rem;
+}
+#c{
+    position: absolute;
+    display: block;
+    width: 9rem;
+    height: 39.3rem;
+    left: 36.9rem;
+}
+#d{
+    position: absolute;
+    display: block;
+    width: 30.3rem;
+    height: 5.6rem;
+    left: 47.8rem;
+}
+#e{
+    position: absolute;
+    display: block;
+    width: 30.3rem;
+    height: 32rem;
+    left: 47.8rem;
+    top: 6.5rem;
+    background-color: brown;
+}
+#f{
+    position: absolute;
+    display: block;
+    width: 18.7rem;
+    height: 5.6rem;
+    right: 0.2rem;
+    background-color: orange;
+}
+#g{
+    position: absolute;
+    display: block;
+    width: 18.7rem;
+    height: 32rem;
+    right: 0.2rem;
+    top: 6.5rem;
+}
+#h{
+    position: absolute;
+    display: block;
+    bottom: 0rem;
+    width: 3.5rem;
+    height: 18.7rem;
+}
+#i{
+    position: absolute;
+    display: block;
+    bottom: 4rem;
+    left: 4.4rem;
+    width: 30.5rem;
+    height: 13.7rem;
+    background-color: navy;
+}
+#j{
+    position: absolute;
+    display: block;
+    bottom: 0rem;
+    left: 4.4rem;
+    width: 30.5rem;
+    height: 3.1rem;
+}
+#k{
+    position: absolute;
+    display: block;
+    width: 9rem;
+    height: 13.7rem;
+    bottom: 4rem;
+    left: 36.9rem;
+}
+#l{
+    position: absolute;
+    display: block;
+    bottom: 0rem;
+    left: 36.9rem;
+    width: 9rem;
+    height: 3.3rem;
+}
+#m{
+    position: absolute;
+    display: block;
+    bottom: 0rem;
+    left: 47.8rem;
+    width: 30.3rem;
+    height: 18.6rem;
+}
+#n{
+    position: absolute;
+    display: block;
+    bottom: 0rem;
+    right: 0.2rem;
+    width: 18.7rem;
+    height: 18.7rem;
+}

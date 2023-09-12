@@ -1,0 +1,19 @@
+:root {
+
+}
+body{
+    background-image: url(selva2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#log-in{
+    position: absolute;
+    left: 43%;
+    top: 30%;
+}
+#log-in table{
+
+}
