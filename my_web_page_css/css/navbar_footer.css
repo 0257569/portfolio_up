@@ -1,0 +1,53 @@
+:root{
+    --enavy1: #2E4374;
+    --enavy2: #4B527E;
+    --enavy3: #7C81AD;
+    --enavy4: #E5C3A6;
+    font-size: 16px;
+}
+
+#navegacion{
+    z-index: 30;
+    position: fixed;
+    background-color: var(--enavy1);
+}
+#navegacion a{
+    color: whitesmoke;
+}
+#navbarLostSpace{
+    position: relative;
+    top: 0;
+    visibility: visible;
+    height: 3.3rem;
+    background-color: var(--enavy1);
+}
+.nav-link{
+    border-bottom: 2px solid var(--fakeWhite);
+}
+.nav-link:hover{
+    border-bottom: 2px solid whitesmoke;
+}
+footer{
+    color: whitesmoke;
+    height: auto;
+    background-color: var(--enavy1);
+}
+ul{
+    list-style: none;
+}
+a{
+    z-index: 100;
+    font-weight: 700;
+    color: var(--complementario);
+    text-decoration: none;
+}
+a:hover{
+    color: var(--principal);
+}
+a::after{
+    color: var(--lightestgreen);
+}
+#footerMain{
+    margin-top: 1rem;
+    padding-top: 1rem;
+}

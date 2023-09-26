@@ -1,0 +1,32 @@
+:root{
+    --enavy1: #2E4374;
+    --enavy2: #4B527E;
+    --enavy3: #7C81AD;
+    --enavy4: #E5C3A6;
+}
+body{
+    background-color: var(--enavy3);
+}
+h1{
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+.subSections{
+    padding: 1rem;
+}
+#presentation{
+    width: auto;
+}
+#mainContainer{
+    padding: 1rem;
+    background: var(--enavy4);
+}
+#subMainContainer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: whitesmoke;
+}
+#sectionLeftMain{
+    border-right: var(--enavy1);
+    border-radius: 1rem;
+}
